@@ -1,0 +1,23 @@
+<div ng-if="projectsIfDetail">
+  <div>
+    <div class="row">
+      <div class="col col-25">{{experience.startTime}}-{{experience.endTime}}</div>
+      <div class="col">{{experience.company}}</div>
+      <div class="col col-33">{{experience.role}}</div>
+    </div>
+    <div class="row" ng-repeat="respon in experience.responsibility">
+      <div class="col-10 wordRight"><i class="ion-leaf"></i></div>
+      <div class="col col-90">{{respon.item}}</div>
+    </div>
+  </div>
+  <div class="card cardBg " ng-repeat="project in experience.projects">
+    <div class="row">
+      <div class="col-10 wordRight"><i class="ion-ios-arrow-forward"></i></div>
+      <div class="col-90">{{project.name}} -- {{project.desc}}</div>
+    </div>
+    <div class="row" ng-repeat="response in project.responsibility">
+      <div class="col-20 wordRight"><i class="ion-leaf"></i></div>
+      <div class="col-80">{{response.item}}</div>
+    </div>
+  </div>
+</div>

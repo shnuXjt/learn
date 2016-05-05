@@ -1,0 +1,17 @@
+<ion-view view-title="Person">
+  <ion-content>
+    <ion-item class="personalInfo">
+      <img ng-src="{{baseInfos.avator}}" alt="证件照">
+      <h1>{{baseInfos.name}}</h1>
+      <h3> {{baseInfos.phoneNum}} | {{baseInfos.email}}</h3>
+    </ion-item>
+    <ion-list>
+      <ion-item ng-repeat="playlist in baseInfos.properties" ng-click="showDetail($index)" class="item-divider projects">
+        {{playlist.title}}
+        <my-edu ng-if="$index == 0"></my-edu>
+        <my-projects ng-if="$index == 1"></my-projects>
+        <my-skills ng-if="$index == 2"></my-skills>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

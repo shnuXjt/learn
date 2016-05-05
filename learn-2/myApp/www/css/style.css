@@ -1,0 +1,42 @@
+/* Empty. Add your own CSS if you like */
+*{
+  padding:0;
+  margin:0;
+}
+.personalInfo{
+  text-align: center;
+  background: #000000;
+  background: -moz-linear-gradient(left,  #000000 0%, #8e8e8e 100%);
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#000000), color-stop(100%,#8e8e8e));
+  background: -webkit-linear-gradient(left,  #000000 0%,#8e8e8e 80%);
+  background: -o-linear-gradient(left,  #000000 0%,#8e8e8e 100%);
+  background: -ms-linear-gradient(left,  #000000 0%,#8e8e8e 100%);
+  background: linear-gradient(to right,  #000000 0%,#8e8e8e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8e8e8e', endColorstr='#000000',GradientType=0 );
+}
+:root .gradient{filter:none;}
+
+.personalInfo img{
+  display:block;
+  width:30%;
+  margin: 15px auto;
+}
+.personalInfo h1{
+  color:#e5e5e5;
+  font-family: "华文楷体","Lucida Console";
+}
+.personalInfo h3 {
+  color:#dddddd;
+  font-family: "Cambria Math";
+}
+.wordRight{
+  text-align: right;
+}
+.cardBg{
+  background-color:#cccccc;
+}
+
+.projects{
+  font-size:0.75em;
+  white-space: normal;
+}

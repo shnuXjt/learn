@@ -1,0 +1,54 @@
+{
+  "company": "埃森哲(中国)有限公司",
+  "startTime":"2015.08",
+  "endTime":"至今",
+  "role":"助理软件工程师",
+  "responsibility":[
+    {"item": "主要是使用HTML标记、div+css+javascript Dom操作等前端WEB技术进行网站的开发与制造"},
+    {"item": "使用mvc思想、oop面向对象思想、ionic框架,angularjs,jQuery框架对项目进行开发"}
+  ],
+  "projects":[
+    {
+      "id":"0",
+      "name":"CIO003 UIDesigner",
+      "desc":"开发类似ionic creator的组件网站",
+      "responsibility": [
+        {"item":"作为前端团队人员，运用Angular 2.0 Beta进行开发"},
+        {"item": "实现缓存功能以及测试数据交互api"},
+        {"item": "添加toggle组件，与后台协商并完善主页中新建工程以及工程命名功能"},
+        {"item": "修复bug"}
+      ]
+    },
+    {
+      "id":"1",
+      "name":"dLife",
+      "desc":"一款为部门内部交流的app",
+      "responsibility": [
+        {"item":"作为前端团队人员，运用ionic框架，anuglarjs1进行开发"},
+        {"item": "学习及运用插件实现保存图片功能"},
+        {"item": "与后台协商并且联调获取页面数据，点赞，评论等功能"},
+        {"item": "编写任务，我的任务，语言选择等界面"}
+      ]
+    },
+    {
+      "id":"2",
+      "name":"年会网站",
+      "desc":"用于年会抽奖，投票，签到等功能的网站",
+      "responsibility": [
+        {"item":"作为前端团队人员，运用jQuery进行开发"},
+        {"item": "编写部分首页，以及与后台联调"},
+        {"item": "编写抽奖页面，以及完成选中弹出中奖者，并与后台联调"}
+      ]
+    },
+    {
+      "id":"3",
+      "name":"CIO Learning Events App",
+      "desc":"用于公司内部各种培训信息查询的app",
+      "responsibility": [
+        {"item":"作为前端团队人员，运用ionic+angularjs进行开发"},
+        {"item": "内部改善功能，页面，修复bug等"},
+        {"item": "为即将加入的新功能进行研究，以及做好demo"}
+      ]
+    }
+  ]
+}
