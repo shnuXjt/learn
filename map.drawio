@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-13T13:51:36.366Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="Xzvs9x06lq3ZlFIGohYD" version="13.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-14T08:12:41.068Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="VQ_B3awLtWgfNKd6yhR3" version="13.6.9" type="github">
   <diagram id="WSQGmPrjaxnSa-IHcQLq" name="Page-1">
-    <mxGraphModel dx="1426" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="983" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,7 +56,7 @@
           <mxGeometry x="750" y="470" width="87" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wPPqD_61VLAjZl9I8UGk-16" value="选中效果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="317" y="430" width="84" height="40" as="geometry" />
+          <mxGeometry x="317" y="430" width="83" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wPPqD_61VLAjZl9I8UGk-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shadow=0;" edge="1" parent="1" source="wPPqD_61VLAjZl9I8UGk-17" target="wPPqD_61VLAjZl9I8UGk-60">
           <mxGeometry relative="1" as="geometry" />
@@ -131,6 +131,9 @@
         </mxCell>
         <mxCell id="wPPqD_61VLAjZl9I8UGk-35" value="状态种类" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="610" y="950" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wPPqD_61VLAjZl9I8UGk-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;" edge="1" parent="1" source="wPPqD_61VLAjZl9I8UGk-36" target="wPPqD_61VLAjZl9I8UGk-80">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wPPqD_61VLAjZl9I8UGk-36" value="特殊情况： 火警闪动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="493.5" y="1060" width="133" height="30" as="geometry" />
@@ -218,6 +221,18 @@
             <mxPoint x="335" y="940" as="sourcePoint" />
             <mxPoint x="335.0160000000001" y="835.9749999999999" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="wPPqD_61VLAjZl9I8UGk-80" value="状态效果的选择&lt;br&gt;第一层： 最基础的功能" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=1;glass=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="428" y="900" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wPPqD_61VLAjZl9I8UGk-82" value="elements 绘制 作为一个组件" style="rounded=0;whiteSpace=wrap;html=1;glass=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="272" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wPPqD_61VLAjZl9I8UGk-83" value="数据模型和行为单独定义" style="rounded=0;whiteSpace=wrap;html=1;glass=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="455" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wPPqD_61VLAjZl9I8UGk-84" value="地图本身&lt;br&gt;元素操作&lt;br&gt;分开讨论" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=1;glass=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="670" y="280" width="80" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
